@@ -21,7 +21,7 @@ const routes = [
     meta: { title: 'YUYAN - MoMoYouYan Post' },
   },
   {
-    path: '/HÖÐR',
+    path: '/HODR',
     name: 'HÖÐR',
     component: HÖÐR,
     alias: ['/HÖÐR.html', '/hodr', '/hodr.html'],
