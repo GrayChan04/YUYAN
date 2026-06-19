@@ -1,0 +1,23 @@
+:root {
+  --game-font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    'Microsoft YaHei', sans-serif;
+  --game-font-mono: Consolas, 'Courier New', ui-monospace, monospace;
+
+  --game-text-xs: 0.7rem;
+  --game-text-sm: 0.8rem;
+  --game-text-md: 0.9rem;
+  --game-text-lg: 1rem;
+  --game-text-xl: 1.2rem;
+
+  --game-space-xs: 4px;
+  --game-space-sm: 8px;
+  --game-space-md: 12px;
+  --game-space-lg: 20px;
+
+  --game-footer-height: 42px;
+  --game-footer-opacity: 0.55;
+  --game-footer-font-size: 0.62rem;
+
+  --game-layer-popup: 10000;
+  --game-layer-toast: 10001;
+}

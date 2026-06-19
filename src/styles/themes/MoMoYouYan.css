@@ -1,0 +1,168 @@
+.MoMoYouYan {
+/* :root { */
+  /* --bg: rgba(212, 252, 121, 0.04); 浅黄色背景  */
+  --bg: #fcfbeb; /* 浅黄色背景 */
+  --bg-panel: #fcfbeb; /* 浅黄色背景 */
+  --bg-mask: rgba(252, 251, 235,0.2);
+
+  --primary: #004b23; /* 深绿色，初始界面主色调 */
+  --title: #003319; /* 墨绿色，帖子标题 
+  --content: #1a1a1a; /* 黑色，用于所有人发言 */
+  --accent: #2f7c47; /* 辅助绿色，用于按钮、边框 */
+  --visited: rgba(47, 124, 71, 0.15); /* 墨绿色变浅 */
+  --bord-bg: rgba(212, 252, 121, 0.1); /* 导航/版块区域浅色背景 */
+  --red-alert: #ff4444; /* 红色警告 */
+  --toast: #004b23;
+  --hover: #fcfbeb;
+
+  --border: 2px solid var(--primary);
+  --border-base: 1px solid var(--primary);
+
+  --text-logo: 2rem;
+  --text-title: 1rem;
+  --text-base: 0.9rem;
+  --text-tag: 0.7rem;
+
+  /* 统一按钮尺寸 */
+  --btn-width: 70px; /* 统一宽度 */
+  --btn-height: 30px; /* 统一高度 */
+  --btn-font-size: var(--text-base); /* 统一字号 */
+/* } */
+
+/* body { */
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei',
+    sans-serif, 'Consolas', 'Courier New', monospace;
+  color: var(--primary);
+  line-height: 1.5;
+  overflow: hidden; /* 核心：彻底关掉浏览器最外层的滚动条 */
+/* } */
+}
+
+/* 布局工具 */
+.MoMoYouYan .tool-group {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  vertical-align: middle; /* 防止对齐问题 */
+}
+
+/* 3. 通用工具按钮 (包含各种交互状态) */
+/* 所有的标准工具按钮 */
+.MoMoYouYan .tool-btn {
+  /* 1. 形状与尺寸 */
+  width: var(--btn-width);
+  height: var(--btn-height);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+
+  /* 2. 边框与背景 */
+  background: transparent;
+  border: var(--border-base);
+  color: var(--primary);
+
+  /* 3. 文字与字体 */
+  font-family: var(--font-standard);
+  font-size: var(--btn-font-size);
+  white-space: nowrap;
+  cursor: pointer;
+  transition: all 0.3s;
+  padding: 0; /* 清除 padding，靠 width/height 控制尺寸 */
+  border-radius: 4px; /* 默认轻微圆角 */
+}
+
+/* 按钮交互状态统一 */
+.MoMoYouYan .tool-btn:hover:not(:disabled) {
+  background: var(--primary);
+  color: #fff;
+}
+.MoMoYouYan .tool-btn.active {
+  background: var(--primary);
+  color: #fff;
+}
+.MoMoYouYan .tool-btn:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+  border-style: dashed;
+}
+.MoMoYouYan .tool-btn:disabled:hover {
+  background: transparent;
+  color: var(--primary);
+  transform: none;
+  box-shadow: none;
+}
+
+/* 2. 通用输入框 (去除了 width，由各组件自行定义) */
+.MoMoYouYan .input {
+  background: transparent;
+  border: var(--border-base);
+  color: var(--primary);
+  font-family: inherit;
+  padding: 5px 10px;
+  outline: none;
+  transition: all 0.3s;
+  -webkit-appearance: none;
+  appearance: none;
+}
+.MoMoYouYan .input:focus {
+  background: transparent;
+}
+
+.MoMoYouYan a {
+  color: var(--title);
+  text-decoration: none;
+}
+
+.MoMoYouYan a:hover {
+  text-decoration: underline;
+}
+
+/* 重置列表 */
+.MoMoYouYan ul,
+.MoMoYouYan ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* 1. 针对 Webkit 浏览器 (Chrome, Edge, Safari) 的全局滚动条样式 */
+
+/* 整个滚动条区域 */
+.MoMoYouYan ::-webkit-scrollbar {
+  width: 4px; /* 纵向滚动条宽度 */
+}
+
+/* 滚动条轨道（背景） */
+.MoMoYouYan ::-webkit-scrollbar-track {
+  background: rgba(0, 75, 35, 0.1); /* 极浅的墨绿底色，保持通透感 */
+  border-radius: 10px;
+}
+
+/* 滚动条滑块（拖动的部分） */
+.MoMoYouYan ::-webkit-scrollbar-thumb {
+  background: rgba(0, 75, 35, 0.4); /* 墨绿色半透明 */
+  border-radius: 10px;
+  transition: background 0.3s ease;
+}
+
+/* 鼠标悬停在滑块上时加深颜色 */
+.MoMoYouYan ::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 75, 35, 0.8); /* 悬停时颜色变实，增加反馈 */
+}
+
+
+/* --- 页脚 (极简) --- */
+.MoMoYouYan .footer {
+  height: 15px;
+  padding-top: 10px;
+  font-size: 0.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* 水平方向居中 */
+  opacity: 0.5;
+  flex-direction: column; /* 让两行文字垂直堆叠 */
+}

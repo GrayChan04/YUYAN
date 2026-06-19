@@ -1,0 +1,1738 @@
+[
+  {
+    "room_id": "M-0-3",
+    "electricity": "yes",
+    "water": "yes",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-0-5",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-0-6",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-0-7",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-1-1",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-1-2",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-1-3",
+    "electricity": "yes",
+    "water": "yes",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-1-4",
+    "electricity": "yes",
+    "water": "yes",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-1-5",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-1-6",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-1-7",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-1-8",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-1-9",
+    "electricity": "yes",
+    "water": "yes",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-1-10",
+    "electricity": "yes",
+    "water": "yes",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-1-11",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-1-12",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-1-13",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-1-14",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-1-15",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-1-16",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-1-17",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-1-18",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-1-19",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-1-20",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-2-1",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-2-2",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-2-3",
+    "electricity": "yes",
+    "water": "yes",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-2-4",
+    "electricity": "yes",
+    "water": "yes",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-2-5",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-2-6",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-2-7",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-2-8",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-2-9",
+    "electricity": "yes",
+    "water": "yes",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-2-10",
+    "electricity": "yes",
+    "water": "yes",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-2-11",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-2-12",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-2-13",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-2-14",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-2-15",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-2-16",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-2-17",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-2-18",
+    "electricity": "no",
+    "water": "no",
+    "temperature": "no",
+    "humidity": "no",
+    "air": "no"
+  },
+  {
+    "room_id": "M-3-1",
+    "electricity": "yes",
+    "water": "yes",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-3-2",
+    "electricity": "yes",
+    "water": "yes",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-3-3",
+    "electricity": "yes",
+    "water": "yes",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-3-4",
+    "electricity": "yes",
+    "water": "yes",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-3-5",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-3-6",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-3-7",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-3-8",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-3-9",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-3-10",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-3-11",
+    "electricity": "yes",
+    "water": "yes",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-3-12",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-3-13",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-3-14",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-3-15",
+    "electricity": "yes",
+    "water": "yes",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-3-16",
+    "electricity": "yes",
+    "water": "yes",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-3-17",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-3-18",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-3-19",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-3-20",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-3-21",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-3-22",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-3-23",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-3-24",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-3-25",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-3-26",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-3-27",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-3-28",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-3-29",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-3-30",
+    "electricity": "no",
+    "water": "no",
+    "temperature": "nos",
+    "humidity": "no",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-4-1",
+    "electricity": "yes",
+    "water": "yes",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-4-2",
+    "electricity": "yes",
+    "water": "yes",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-4-3",
+    "electricity": "yes",
+    "water": "yes",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-4-4",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-4-5",
+    "electricity": "yes",
+    "water": "yes",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-4-6",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-4-7",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-4-8",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-4-9",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-4-10",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-4-11",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-4-12",
+    "electricity": "yes",
+    "water": "yes",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-4-13",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-4-14",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-4-15",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-4-16",
+    "electricity": "yes",
+    "water": "yes",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-4-17",
+    "electricity": "yes",
+    "water": "yes",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-4-18",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-4-19",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-4-20",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-4-21",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-4-22",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-4-23",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-4-24",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-4-25",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-4-26",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-4-27",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-4-28",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-4-29",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-4-30",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-4-31",
+    "electricity": "no",
+    "water": "no",
+    "temperature": "no",
+    "humidity": "no",
+    "air": "no"
+  },
+  {
+    "room_id": "M-5-1",
+    "electricity": "yes",
+    "water": "yes",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-5-2",
+    "electricity": "yes",
+    "water": "yes",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-5-3",
+    "electricity": "yes",
+    "water": "yes",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-5-4",
+    "electricity": "yes",
+    "water": "yes",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-5-5",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-5-6",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-5-7",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-5-8",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-5-9",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-5-10",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-5-11",
+    "electricity": "yes",
+    "water": "yes",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-5-12",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-5-13",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-5-14",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-5-15",
+    "electricity": "yes",
+    "water": "yes",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-5-16",
+    "electricity": "yes",
+    "water": "yes",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-5-17",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-5-18",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-5-19",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-5-20",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-5-21",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-5-22",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-5-23",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-5-24",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-5-25",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-5-26",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-5-27",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-5-28",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-5-29",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-5-30",
+    "electricity": "no",
+    "water": "no",
+    "temperature": "no",
+    "humidity": "no",
+    "air": "no"
+  },
+  {
+    "room_id": "M-6-1",
+    "electricity": "yes",
+    "water": "yes",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-6-2",
+    "electricity": "yes",
+    "water": "yes",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-6-3",
+    "electricity": "yes",
+    "water": "yes",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-6-4",
+    "electricity": "yes",
+    "water": "yes",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-6-5",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-6-6",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-6-7",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-6-8",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-6-9",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-6-10",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-6-11",
+    "electricity": "yes",
+    "water": "yes",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-6-12",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-6-13",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-6-14",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-6-15",
+    "electricity": "yes",
+    "water": "yes",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-6-16",
+    "electricity": "yes",
+    "water": "yes",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-6-17",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-6-18",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-6-19",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-6-20",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-6-21",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-6-22",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-6-23",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-6-24",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-6-25",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-6-26",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-6-27",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-6-28",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-6-29",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-6-30",
+    "electricity": "no",
+    "water": "no",
+    "temperature": "no",
+    "humidity": "no",
+    "air": "no"
+  },
+  {
+    "room_id": "M-7-1",
+    "electricity": "yes",
+    "water": "yes",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-7-2",
+    "electricity": "yes",
+    "water": "yes",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-7-3",
+    "electricity": "yes",
+    "water": "yes",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-7-4",
+    "electricity": "yes",
+    "water": "yes",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-7-5",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-7-6",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-7-7",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-7-8",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-7-9",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-7-10",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-7-11",
+    "electricity": "yes",
+    "water": "yes",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-7-12",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-7-13",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-7-14",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-7-15",
+    "electricity": "yes",
+    "water": "yes",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-7-16",
+    "electricity": "yes",
+    "water": "yes",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-7-17",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-7-18",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-7-19",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-7-20",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-7-21",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-7-22",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-7-23",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-7-24",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-7-25",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-7-26",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-7-27",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-7-28",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-7-29",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "M-7-30",
+    "electricity": "no",
+    "water": "no",
+    "temperature": "no",
+    "humidity": "no",
+    "air": "no"
+  },
+  {
+    "room_id": "A-0-3",
+    "electricity": "yes",
+    "water": "yes",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "A-0-4",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "A-1-1",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "A-1-2",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "A-1-3",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "A-1-4",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "A-1-5",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "A-1-6",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "A-1-7",
+    "electricity": "yes",
+    "water": "yes",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "A-1-8",
+    "electricity": "yes",
+    "water": "yes",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "A-1-9",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "A-1-10",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "A-1-11",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "A-2-1",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "A-2-2",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "A-2-3",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "A-2-4",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "A-2-5",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "A-2-6",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "A-2-7",
+    "electricity": "yes",
+    "water": "yes",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "A-2-8",
+    "electricity": "yes",
+    "water": "yes",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "A-2-9",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "A-2-10",
+    "electricity": "yes",
+    "water": "no",
+    "temperature": "yes",
+    "humidity": "yes",
+    "air": "yes"
+  },
+  {
+    "room_id": "A-2-11",
+    "electricity": "no",
+    "water": "no",
+    "temperature": "no",
+    "humidity": "no",
+    "air": "no"
+  }
+]
