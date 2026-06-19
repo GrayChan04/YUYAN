@@ -1,147 +1,147 @@
 <template>
   <SystemPageTemplate system-class="MoMoYouYan">
-<Begin :visible="showIntro" />
+    <Begin :visible="showIntro" />
 
-  <div class="main-container MoMoYouYan">
-    <div class="main-area">
-      <header class="forum-header">
-        <div class="logo" title="网络科技与安全研究院">MoMo有言</div>
-        <div class="user-actions">
-          <template v-if="!isLoggedIn">
-            <button class="tool-btn" @click="login">登录</button>
-          </template>
-          <template v-else>
-            <span class="user-greeting">{{ currentUser }}</span>
-            <button class="tool-btn" @click="toPrivateSpace">
-              {{ isPrivateSpace ? '返回全部' : '个人空间' }}
-            </button>
-            <button class="tool-btn" @click="createPost">发帖</button>
-            <button class="tool-btn" @click="logout">退出登录</button>
-          </template>
-          <span class="header-datetime">2073-09-27 09:30</span>
-        </div>
-      </header>
-
-      <section class="notice-board">
-        <h2>【置顶公告】</h2>
-        <p>
-          1. 本论坛为<a href="#" class="institute-link">研究院</a
-          >内部匿名交流平台，仅限工作之余情绪调剂。用户需严格遵守本单位工作保密条例，<strong
-            >严禁讨论任何公务、项目的技术细节或涉密信息。</strong
-          >
-        </p>
-        <p>
-          2.
-          严禁以任何形式窃取、爬取或尝试获取其他用户的任何信息。违者将承担全部责任。
-        </p>
-        <p>
-          3.
-          本论坛已接入本单位员工认证系统，请在内网环境下使用个人工号登录。未登录用户仅可浏览帖文，无发帖、评论权限。
-        </p>
-        <p>
-          4.
-          为保持信息时效性，仅展示当日发布的帖文。如需查阅历史内容，请使用搜索功能进行检索或进通过个人空间查看。
-        </p>
-      </section>
-
-      <nav class="category-nav">
-        <div class="nav-wrapper">
-          <div class="search-bar tool-group">
-            <input
-              type="text"
-              v-model="inputKeyword"
-              class="input"
-              placeholder="输入日期、标题或发帖人昵称搜索"
-              @keyup.enter="handleSearch"
-            />
-            <button class="tool-btn" @click="handleSearch">搜索</button>
-          </div>
-
-          <div class="category-section">
-            <div v-if="isPrivateSpace" class="private-mode-wrapper">
-              <button class="private-mode-btn" @click="togglePrivateMode">
-                {{ privateMode === 'created' ? '我发起的' : '我参与的' }}
+    <div class="main-container MoMoYouYan">
+      <div class="main-area">
+        <header class="forum-header">
+          <div class="logo" title="网络科技与安全研究院">MoMo有言</div>
+          <div class="user-actions">
+            <template v-if="!isLoggedIn">
+              <button class="tool-btn" @click="login">登录</button>
+            </template>
+            <template v-else>
+              <span class="user-greeting">{{ currentUser }}</span>
+              <button class="tool-btn" @click="toPrivateSpace">
+                {{ isPrivateSpace ? '返回全部' : '个人空间' }}
               </button>
-
-              <div class="private-divider"></div>
-            </div>
-
-            <ul class="category-list">
-              <li
-                v-for="cat in categories"
-                :key="cat"
-                :class="{ active: currentCategory === cat }"
-                @click="currentCategory = cat"
-              >
-                {{ cat }}
-              </li>
-            </ul>
+              <button class="tool-btn" @click="createPost">发帖</button>
+              <button class="tool-btn" @click="logout">退出登录</button>
+            </template>
+            <span class="header-datetime">2073-09-27 09:30</span>
           </div>
-        </div>
-        <div class="nav-divider"></div>
-      </nav>
+        </header>
 
-      <div class="post-list">
-        <div v-if="filteredPosts.length === 0" class="empty-state">
-          没有找到相关的帖子...
+        <section class="notice-board">
+          <h2>【置顶公告】</h2>
+          <p>
+            1. 本论坛为<a href="#" class="institute-link">研究院</a
+            >内部匿名交流平台，仅限工作之余情绪调剂。用户需严格遵守本单位工作保密条例，<strong
+              >严禁讨论任何公务、项目的技术细节或涉密信息。</strong
+            >
+          </p>
+          <p>
+            2.
+            严禁以任何形式窃取、爬取或尝试获取其他用户的任何信息。违者将承担全部责任。
+          </p>
+          <p>
+            3.
+            本论坛已接入本单位员工认证系统，请在内网环境下使用个人工号登录。未登录用户仅可浏览帖文，无发帖、评论权限。
+          </p>
+          <p>
+            4.
+            为保持信息时效性，仅展示当日发布的帖文。如需查阅历史内容，请使用搜索功能进行检索或进通过个人空间查看。
+          </p>
+        </section>
+
+        <nav class="category-nav">
+          <div class="nav-wrapper">
+            <div class="search-bar tool-group">
+              <input
+                type="text"
+                v-model="inputKeyword"
+                class="input"
+                placeholder="输入日期、标题或发帖人昵称搜索"
+                @keyup.enter="handleSearch"
+              />
+              <button class="tool-btn" @click="handleSearch">搜索</button>
+            </div>
+
+            <div class="category-section">
+              <div v-if="isPrivateSpace" class="private-mode-wrapper">
+                <button class="private-mode-btn" @click="togglePrivateMode">
+                  {{ privateMode === 'created' ? '我发起的' : '我参与的' }}
+                </button>
+
+                <div class="private-divider"></div>
+              </div>
+
+              <ul class="category-list">
+                <li
+                  v-for="cat in categories"
+                  :key="cat"
+                  :class="{ active: currentCategory === cat }"
+                  @click="currentCategory = cat"
+                >
+                  {{ cat }}
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="nav-divider"></div>
+        </nav>
+
+        <div class="post-list">
+          <div v-if="filteredPosts.length === 0" class="empty-state">
+            没有找到相关的帖子...
+          </div>
+          <ul v-else>
+            <li
+              v-for="post in filteredPosts"
+              :key="post.url"
+              class="post-item"
+              :class="{ 'status-deleted': post.status === '已删除' }"
+            >
+              <div class="post-left">
+                <template v-if="post.status === '已删除'">
+                  <span class="post-title-disabled"
+                    >{{ post.title }} (已删除)</span
+                  >
+                </template>
+                <template v-else>
+                  <router-link
+                    v-if="post.status !== 'secret'"
+                    :to="{ name: 'MoMoYouYanPost', query: { path: post.url } }"
+                    target="_blank"
+                    class="post-title"
+                  >
+                    {{ post.title }}
+                  </router-link>
+                  <router-link
+                    v-else
+                    :to="{ name: 'HÖÐR' }"
+                    target="_blank"
+                    class="post-title"
+                  >
+                    {{ post.title }}
+                  </router-link>
+                </template>
+                <span
+                  class="post-category-tag"
+                  @click="currentCategory = post.category"
+                >
+                  {{ post.category }}
+                </span>
+              </div>
+              <div class="post-right">
+                <span class="poster">{{ post.posts?.[0]?.poster }}</span>
+                <span class="post-time">{{ formatFullTime(post.time) }}</span>
+              </div>
+            </li>
+          </ul>
         </div>
-        <ul v-else>
-          <li
-            v-for="post in filteredPosts"
-            :key="post.url"
-            class="post-item"
-            :class="{ 'status-deleted': post.status === '已删除' }"
-          >
-            <div class="post-left">
-              <template v-if="post.status === '已删除'">
-                <span class="post-title-disabled"
-                  >{{ post.title }} (已删除)</span
-                >
-              </template>
-              <template v-else>
-                <router-link
-                  v-if="post.status !== 'secret'"
-                  :to="{ name: 'MoMoYouYanPost', query: { path: post.url } }"
-                  target="_blank"
-                  class="post-title"
-                >
-                  {{ post.title }}
-                </router-link>
-                <router-link
-                  v-else
-                  :to="{ name: 'HÖÐR' }"
-                  target="_blank"
-                  class="post-title"
-                >
-                  {{ post.title }}
-                </router-link>
-              </template>
-              <span
-                class="post-category-tag"
-                @click="currentCategory = post.category"
-              >
-                {{ post.category }}
-              </span>
-            </div>
-            <div class="post-right">
-              <span class="poster">{{ post.posts?.[0]?.poster }}</span>
-              <span class="post-time">{{ formatFullTime(post.time) }}</span>
-            </div>
-          </li>
-        </ul>
+        <Popup
+          v-model:visible="showLoginPopup"
+          class="MoMoYouYan"
+          title="内网统一认证登录"
+          mode="login"
+          hint="个人工号："
+          :user-list="personnelDataRaw"
+          @success="onLoginSuccess"
+        />
+        <Toast ref="toastRef" class="MoMoYouYan" />
       </div>
-      <Popup
-        v-model:visible="showLoginPopup"
-        class="MoMoYouYan"
-        title="内网统一认证登录"
-        mode="login"
-        hint="个人工号："
-        :user-list="personnelDataRaw"
-        @success="onLoginSuccess"
-      />
-      <Toast ref="toastRef" class="MoMoYouYan" />
     </div>
-  </div>
   </SystemPageTemplate>
 </template>
 
@@ -164,6 +164,8 @@ const route = useRoute();
 
 const postsData = ref(postDataRaw);
 const isPrivateSpace = ref(false); // 是否处于个人空间模式
+const isTimeLockEnabled = ref(false);
+
 const privateMode = ref('created');
 // created = 我发起的
 // participated = 我参与的
@@ -202,6 +204,15 @@ const checkBegin = () => {
   }, 2500);
 };
 
+//锁帖
+const LOCK_TIME = '20730927 09:30:00';
+const isLockedPost = (p) => {
+  if (!isTimeLockEnabled.value) return false;
+  if (!p.time) return false;
+
+  return String(p.time).trim() > LOCK_TIME;
+};
+
 // 核心计算属性：过滤帖子
 const filteredPosts = computed(() => {
   // --- 1. 个人空间模式 (Private Space) ---
@@ -210,6 +221,9 @@ const filteredPosts = computed(() => {
 
     return postsData.value
       .filter((p) => {
+        // 🚫 时间锁：直接屏蔽未来内容（不可见 + 不可搜）
+        if (isLockedPost(p)) return false;
+
         const isAuthor = p.posts?.[0]?.poster === myName;
 
         const isParticipant = p.posts?.some(
@@ -238,6 +252,9 @@ const filteredPosts = computed(() => {
 
   return postsData.value
     .filter((p) => {
+      // 🚫 时间锁：直接屏蔽未来内容（不可见 + 不可搜）
+      if (isLockedPost(p)) return false;
+
       // 基础过滤：首页不显示“已删除”
       if (p.status === '已删除') return false;
 
@@ -334,6 +351,7 @@ const formatFullTime = (timeStr) => timeStr;
 
 onMounted(() => {
   restoreLoginStatus();
+  isTimeLockEnabled.value = true;
 
   checkBegin();
 
@@ -347,7 +365,6 @@ onMounted(() => {
 </script>
 
 <style>
-
 .main-container {
   height: 100%;
   width: 100%; /* 🎯 核心修改：强制撑满浏览器宽度 */
